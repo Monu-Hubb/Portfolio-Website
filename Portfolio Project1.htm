@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monica Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">MONICA</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">🌙</button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero fade-in">
+    <div class="hero-container">
+      <div class="hero-img"></div>
+      <div class="hero-content">
+        <h1><span id="typewriter"></span></h1>
+        <p>I am a passionate computer science student eager to learn <br>
+           and grow in web development. Focused on building practical skills<br> 
+           and creating user-friendly applications. Always striving to<br>
+           improve and take on new challenges.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="fade-in">
+    <h2>Education</h2>
+    <div class="education-cards">
+      <div class="edu-card edu-fade fade-in">
+        <h3>School</h3>
+        <p>Stella Maris High School</p>
+        <span class="edu-info">2009 - 2019</span>
+      </div>
+      <div class="edu-card edu-fade fade-in" style="animation-delay:.16s;">
+        <h3>Pre-University</h3>
+        <p>Holy Spirit PU College</p>
+        <span class="edu-info">2020 - 2022</span>
+      </div>
+      <div class="edu-card edu-fade fade-in" style="animation-delay:.32s;">
+        <h3>Undergraduate</h3>
+        <p>Christ Academy</p>
+        <span class="edu-info">2023 - 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="fade-in">
+    <h2>Skills</h2>
+    <div class="skills-pills">
+      <span class="skill-pill fade-in">C</span>
+      <span class="skill-pill fade-in" style="animation-delay:.1s;">HTML</span>
+      <span class="skill-pill fade-in" style="animation-delay:.2s;">PYTHON</span>
+      <span class="skill-pill fade-in" style="animation-delay:.3s;">CSS</span>
+      <span class="skill-pill fade-in" style="animation-delay:.4s;">WEB DEVELOPMENT</span>
+    </div>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="projects-cards">
+      <div class="project-card fade-in">
+        <h3>Portfolio Website</h3>
+        <p>A modern portfolio site built with React and Node.js, showcasing personal and professional projects.</p>
+        <a href="#" target="_blank" class="proj-link">View Project</a>
+      </div>
+      <div class="project-card fade-in" style="animation-delay:.16s;">
+        <h3>Task Manager App</h3>
+        <p>A full-stack application for managing tasks, deadlines, and productivity tracking. Uses MongoDB and REST APIs.</p>
+        <a href="#" target="_blank" class="proj-link">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="fade-in">
+    <h2>Certificates</h2>
+    <div class="certs-cards">
+      <div class="cert-card cert-zoom fade-in">
+        <h3>Full Stack Web Development</h3>
+        <p>FreeCodeCamp</p>
+        <span>March 2024</span>
+      </div>
+      <div class="cert-card cert-zoom fade-in" style="animation-delay:.16s;">
+        <h3>AWS Cloud Practitioner</h3>
+        <p>Amazon Web Services</p>
+        <span>January 2024</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="contact-links">
+      <a href="mailto:Itsmonicac4@gmail.com" class="contact-link">Email</a>
+      <a href="tel:+91 76192 27374" class="contact-link">Phone</a>
+      <a href="https://github.com/monicadev" class="contact-link" target="_blank">GitHub</a>
+      <a href="" class="contact-link" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© 2025 Monica | STUDENT</div>
+    <div>
+      <a href="mailto:Itsmonicac4@gmail.com">Email</a> |
+      <a href="tel:+91 76192 27374">Phone</a> |
+      <a href="https://github.com/monicadev" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/monica-c-0020a131a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
